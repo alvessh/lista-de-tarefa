@@ -27,11 +27,10 @@ public class TaskRepository {
 		 
 	}
 	
-	public Task save (Task todoItem) {
-		todoItem.setId(idCounter++);
-		taskList.add(todoItem); 
-		return todoItem;
-		
+	public Task save (Task task) {
+		task.setId(idCounter++);
+		taskList.add(task); 
+		return task;
 	}
 	
 	public void delete(Integer id) {

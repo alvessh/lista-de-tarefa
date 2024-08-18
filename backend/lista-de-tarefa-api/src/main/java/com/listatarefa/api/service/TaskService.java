@@ -29,6 +29,7 @@ public class TaskService {
 			Task task = taskOpt.get();
 			task.setIsDone(taskItem.getIsDone());
 			task.setDescription(taskItem.getDescription());
+			
 			return task;
 		}
 		
