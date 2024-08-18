@@ -1,0 +1,45 @@
+/* Estilo para o contêiner principal do rodapé */
+.Footer {
+    position: relative; /* Define a posição como relativa, permitindo que elementos internos sejam posicionados em relação a este contêiner */
+    min-height: 20vh; /* Define a altura mínima do rodapé como 20% da altura da visualização (viewport) */
+    background-color: #ffffff; /* Define a cor de fundo do rodapé como branco */
+    padding: 2rem; /* Adiciona 2rem de preenchimento em todos os lados do contêiner */
+}
+
+/* Estilo para o contêiner interno do rodapé */
+.footercontainer {
+    display: flex; /* Usa o Flexbox para alinhar os itens no contêiner */
+    justify-content: center; /* Alinha os itens horizontalmente ao centro do contêiner */
+    align-items: center; /* Alinha os itens verticalmente ao centro do contêiner */
+}
+
+/* Estilo para o título dentro do contêiner do rodapé */
+.footercontainer h1 {
+    font-size: 20px; /* Define o tamanho da fonte do título como 20 pixels */
+    color: rgb(96, 96, 96); /* Define a cor do texto do título como um cinza escuro */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    text-align: center; /* Alinha o texto ao centro do contêiner */
+    letter-spacing: 4.5px; /* Adiciona um espaçamento de 4.5 pixels entre as letras */
+    margin-top: 0.5rem; /* Adiciona uma margem superior de 0.5rem ao título */
+}
+
+/* Estilo para o contêiner de ícones no rodapé */
+.icons {
+    display: flex; /* Usa o Flexbox para alinhar os ícones horizontalmente */
+    justify-content: center; /* Alinha os ícones horizontalmente ao centro do contêiner */
+    align-items: center; /* Alinha os ícones verticalmente ao centro do contêiner */
+}
+
+/* Estilo para os ícones dentro do contêiner de ícones */
+.icons .icon {
+    margin-left: 1rem; /* Adiciona uma margem esquerda de 1rem entre os ícones */
+    margin-right: 1rem; /* Adiciona uma margem direita de 1rem entre os ícones */
+    margin-top: 1.5rem; /* Adiciona uma margem superior de 1.5rem aos ícones */
+    cursor: pointer; /* Muda o cursor para um ponteiro ao passar sobre o ícone, indicando que é clicável */
+    color: rgb(96, 96, 96); /* Define a cor dos ícones como um cinza escuro */
+}
+
+/* Estilo para os ícones ao passar o mouse sobre eles */
+.icons .icon:hover {
+    color: rgb(65, 122, 255); /* Muda a cor dos ícones para um azul claro quando o mouse está sobre eles */
+}

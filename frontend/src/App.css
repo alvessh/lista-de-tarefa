@@ -1,0 +1,94 @@
+/* Define que o texto dentro do elemento com a classe .App deve ser centralizado horizontalmente */
+.App {
+  text-align: center;
+}
+
+/* Define a altura do elemento com a classe .App-logo como 40% da menor dimensão da área visível da tela */
+.App-logo {
+  height: 40vmin;
+  /* Desativa a interação com eventos de ponteiro (como cliques e passagens do mouse) */
+  pointer-events: none;
+}
+
+/* Estilos aplicados ao elemento com a classe .main-body */
+.main-body {
+  /* Adiciona 10% de preenchimento em todos os lados do elemento */
+  padding: 10%;
+  /* Remove o preenchimento superior e inferior, substituindo o preenchimento geral por zero nesses lados */
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Define os estilos para o contêiner com a classe .todo-container */
+.todo-container {
+  /* Define a cor de fundo como branca */
+  background-color: rgb(255, 255, 255);
+  /* Define a altura mínima como 60% da altura da área visível da tela */
+  min-height: 60vh;
+  /* Usa o Flexbox para layout */
+  display: flex;
+  /* Alinha os itens em uma coluna */
+  flex-direction: column;
+  /* Centraliza os itens horizontalmente */
+  align-items: center;
+  /* Define a cor do texto como um tom de azul */
+  color: rgb(0, 61, 184);
+  /* Adiciona 5% de preenchimento nas partes superior e inferior e 2% nas laterais */
+  padding: 5% 2%;
+}
+
+/* Estilos para o botão com a classe .addbtn */
+.addbtn {
+  /* Adiciona uma margem de 1rem acima do botão */
+  margin-top: 1rem;
+  /* Adiciona uma margem de 1.2rem abaixo do botão */
+  margin-bottom: 1.2rem;
+}
+
+/* Estilos para elementos <input> do tipo texto */
+input[type="text"] {
+  /* Remove qualquer cor de fundo do campo de entrada */
+  background: none;
+  /* Remove a borda do campo de entrada */
+  border: none;
+  /* Define o tamanho da fonte como grande */
+  font-size: large;
+  /* Adiciona um preenchimento de 10 pixels ao redor do texto no campo de entrada */
+  padding: 10px;
+  /* Define a largura do campo de entrada como 40em */
+  width: 40em;
+}
+
+/* Estilos para elementos com a classe .done */
+.done {
+  /* Define a cor do texto como preto com 30% de opacidade, usando !important para garantir prioridade */
+  color: rgba(0, 0, 0, 0.3) !important;
+  /* Adiciona uma linha através do texto para indicar que está riscado */
+  text-decoration: line-through;
+}
+
+/* Estilos para elementos <h2> (títulos de segundo nível) */
+h2 {
+  /* Define a família de fontes como Verdana, Geneva, Tahoma ou qualquer fonte sans-serif disponível */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* Define a cor do texto como preto */
+  color: black;
+  /* Define o tamanho da fonte como 300% do tamanho padrão */
+  font-size: 300%;
+  /* Adiciona uma margem inferior de 2 pixels */
+  margin-bottom: 2px;
+  /* Adiciona um espaçamento de 0.4rem entre as letras */
+  letter-spacing: 0.4rem;
+}
+
+/* Estilos para elementos <h3> (títulos de terceiro nível) */
+h3 {
+  /* Define a família de fontes como Verdana, Geneva, Tahoma ou qualquer fonte sans-serif disponível */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* Transforma o texto em maiúsculas */
+  text-transform: uppercase;
+  /* Define a cor do texto como um tom escuro de cinza */
+  color: rgb(47, 46, 46);
+  /* Adiciona uma margem superior de 2 pixels */
+  margin-top: 2px;
+}
